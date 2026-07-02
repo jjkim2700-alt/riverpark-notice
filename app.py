@@ -174,12 +174,13 @@ st.markdown("""
 <div class="header-card">
     <h4>공동재산(장기수선충당금) 보호를 위한</h4>
     <h2>외부감사 요청 입주민 동의 안내</h2>
-    <p>발신: 108동대표 진상호, 109동대표 김윤숙, 111동대표 이종혁, 113동대표 김재중</p>
+    <p>발신: 리버파크자이 주민협의체</p>
 </div>
 """, unsafe_allow_html=True)
 
 # 모바일 화면을 위해 바로 온라인 동의서 작성 링크 제공 (최상단 노출)
 st.markdown("### 📝 온라인 감사 동의서 작성")
+st.markdown("<p style='font-size:0.85rem; color:#64748b; margin-top:-10px; margin-bottom:12px;'>본 동의는 별도로 제출되는 <strong>[공동주택 관리에 관한 감사요청서]</strong>의 상세 내용 및 감사 사유에 동의함을 의미합니다.</p>", unsafe_allow_html=True)
 st.link_button("👉 1분 완성 모바일 동의서 작성하기", "https://forms.gle/z8gMe56HSBmYUso19")
 
 st.markdown("<div style='margin-bottom: 20px;'></div>", unsafe_allow_html=True)
@@ -250,13 +251,13 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# 외부감사 필요성 강조
+# 외부감사 요청 주요 내용 및 사유
 st.markdown("""
 <div class="danger-card" style="background-color: #fffbeb; border-left: 5px solid #f59e0b; border-color: #f59e0b;">
-    <div class="danger-card-title" style="color: #b45309;">⚠ 왜 지금 외부감사를 요청해야 하나요?</div>
+    <div class="danger-card-title" style="color: #b45309;">📋 외부감사 요청 주요 내용 및 사유</div>
     <div style="font-size: 0.85rem; line-height: 1.6; color: #78350f;">
-        입주민 공동 재산이 강제 인출되는 초유의 사태에도 불구하고, 현 입대의 8인은 입주민 동의 및 법률 자문 없이 전임 회장과 <strong>불법 합의를 하고 면책</strong>해 주었습니다.<br>
-        충당금 강제인출 사태와 불법 합의에 대한 <strong>철저한 객관적 조사</strong>를 위해 도청·시청 등 외부기관 감사가 반드시 필요합니다.
+        <strong>• 감사 요청 사항:</strong> 공동주택관리 특별감사 실시 및 전임 회장의 배임 의혹, 현 입대의 8인의 불법적인 면책 합의 과정에 대한 철저한 객관적 조사<br>
+        <strong>• 감사 요청 사유:</strong> 입주자 동의 없는 계약조건 독단 변경으로 장기수선충당금 13.3억 원 강제 유출 발생 및 이에 대해 현 입대의(8인)가 독단적으로 면책 합의를 강행하여 공동재산 피해를 묵인함
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -267,6 +268,7 @@ st.video("https://youtu.be/X6Z9xzlS8G4?si=OIQrouIc2nwIQr4o")
 
 # 한 번 더 하단에 동의서 링크 배치
 st.markdown("<div style='margin-bottom: 25px;'></div>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:0.85rem; color:#64748b; text-align:center; margin-bottom:8px;'>별도로 제출되는 <strong>[공동주택 관리에 관한 감사요청서]</strong> 내용에 동의합니다.</p>", unsafe_allow_html=True)
 st.link_button("👉 지금 감사 동의서 작성하러 가기", "https://forms.gle/z8gMe56HSBmYUso19")
 
 # 푸터
